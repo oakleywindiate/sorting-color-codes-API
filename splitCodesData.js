@@ -1,4 +1,4 @@
-const sortCodesData = [
+const splitCodesData = [
     {id: 1, common_name: 'sawtooth oak', scientific_name: 'Quercus acutissima'},
     {id: 2, common_name: 'pin oak', scientific_name: 'Quercus palustris'},
     {id: 3, common_name: 'bur oak', scientific_name: 'Quercus macrocarpa'},
@@ -56,4 +56,4 @@ const sortCodesData = [
     {id: 55, common_name: 'Eastern redbud', scientific_name: 'Cercis canadensis'},
   ];
 
-  module.exports = sortCodesData;
+  module.exports = splitCodesData;
