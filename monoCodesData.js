@@ -39,6 +39,7 @@ const monoCodesData = [
     {id: 38, state_postal: 'WA', color: 'ORANGE'},
     {id: 39, state_postal: 'WI', color: 'WHITE'},
     {id: 40, state_postal: 'WV', color: 'TAN'},
+    {id: 41, state_postal: 'UT', color: 'ORANGE'},
   ];
 
   module.exports = monoCodesData;
