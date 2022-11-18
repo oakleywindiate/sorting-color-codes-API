@@ -1,5 +1,6 @@
 monoCodesData = require('./monoCodesData');
 splitCodesData = require('./splitCodesData');
+canCodesData = require('./canCodesData');
 
 const cors = require('cors');
 const express = require('express');
@@ -9,6 +10,7 @@ app.use(cors())
 
 app.locals.monoCodes = monoCodesData;
 app.locals.splitCodes = splitCodesData;
+app.locals.canCodes = canCodesData;
 
 // app.set('port', process.env.PORT || 3001);
 app.locals.title = 'Sorting Color Codes API';
@@ -28,6 +30,10 @@ app.get('/mono-codes', (request, response) => {
 
 app.get('/split-codes', (request, response) => {
     response.status(200).json(app.locals.splitCodes);
+});
+
+app.get('/can-codes', (request, response) => {
+    response.status(200).json(app.locals.canCodes);
 });
 
 app.listen(app.get('port'), () => {
