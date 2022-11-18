@@ -1,0 +1,25 @@
+const canCodesData = [
+    {id: 1, state_postal: 'CAN', color: 'BROWN', code: 'A'},
+    {id: 2, state_postal: 'CAN', color: 'BROWN', code: 'B'},
+    {id: 3, state_postal: 'CAN', color: 'BROWN', code: 'C'},
+    {id: 4, state_postal: 'CAN', color: 'BROWN', code: 'D'},
+    {id: 5, state_postal: 'CAN', color: 'BROWN', code: 'E'},
+    {id: 6, state_postal: 'CAN', color: 'BROWN', code: 'F'},
+    {id: 7, state_postal: 'CAN', color: 'BROWN', code: 'G'},
+    {id: 8, state_postal: 'CAN', color: 'BROWN', code: 'H'},
+    {id: 9, state_postal: 'CAN', color: 'BROWN', code: 'I'},
+    {id: 10, state_postal: 'CAN', color: 'BROWN', code: 'J'},
+    {id: 11, state_postal: 'CAN', color: 'PINK', code: 'K'},
+    {id: 12, state_postal: 'CAN', color: 'PINK', code: 'L'},
+    {id: 13, state_postal: 'CAN', color: 'PINK', code: 'M'},
+    {id: 14, state_postal: 'CAN', color: 'PINK', code: 'N'},
+    {id: 15, state_postal: 'CAN', color: 'PINK', code: 'O'},
+    {id: 16, state_postal: 'CAN', color: 'PINK', code: 'P'},
+    {id: 17, state_postal: 'CAN', color: 'WHITE', code: 'R'},
+    {id: 18, state_postal: 'CAN', color: 'WHITE', code: 'S'},
+    {id: 19, state_postal: 'CAN', color: 'WHITE', code: 'T'},
+    {id: 20, state_postal: 'CAN', color: 'ORANGE', code: 'V'},
+    {id: 21, state_postal: 'CAN', color: 'PURPLE', code: 'PRI'},
+  ];
+
+  module.exports = canCodesData;
