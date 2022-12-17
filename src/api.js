@@ -2,14 +2,14 @@ monoCodesData = require('../monoCodesData');
 splitCodesData = require('../splitCodesData');
 canCodesData = require('../canCodesData');
 
-// const cors = require('cors');
+const cors = require('cors');
 const express = require('express');
 const serverless = require('serverless-http');
 
 const app = express();
 const router = express.Router();
 
-// app.use(cors())
+app.use(cors())
 
 app.locals.monoCodes = monoCodesData;
 app.locals.splitCodes = splitCodesData;
